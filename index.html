@@ -14,24 +14,24 @@
 
     </header>
     <content>
-    <table>
-        <caption>Books of Library</caption>
-        <thead>
-        <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Author</th>
-            <th scope="col">Name</th>
-            <th scope="col">Pages</th>
-            <th scope="col">Status</th>
-        </tr>
-        </thead>
-        <tbody class="tbody">
+        <table>
+            <caption>Books of Library</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Pages</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
 
-        </tbody>
-        <tfoot>
+            </tbody>
+            <tfoot>
 
-        </tfoot>
-    </table>
+            </tfoot>
+        </table>
         <button class="add_b">Add book</button>
         <dialog class="myDiaLog">
             <label for="author">Author's name</label>
@@ -39,18 +39,21 @@
 
             <label for="book_name">Book's name</label>
             <input type="text" id="book_name" name="book_name" placeholder="Enter book's name">
-            
+
             <label for="pages">Pages</label>
             <input type="text" id="pages" name="pages" placeholder="Enter number of page">
-            
-             <label for="checkbox">have you read it before?</label>
-            <input type="checkbox" id="checkbox" name="checkbox"> 
+
+            <p>have you read it before?</p>
+            <select id="read">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
 
             <button id="confirm">Nhập</button>
         </dialog>
     </content>
     <footer>
-        
+
     </footer>
     <script>
 
